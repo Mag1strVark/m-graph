@@ -1,4 +1,4 @@
-import {Router} from 'express'
+import { Router } from 'express'
 import { getMe, login, register } from '../controllers/auth.js'
 import { checkAuth } from '../utils/CheckAuth.js'
 

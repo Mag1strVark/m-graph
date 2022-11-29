@@ -1,17 +1,17 @@
 import React from 'react'
 import './index.css'
 import App from './App'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { Normalize } from 'styled-normalize'
-import { Provider } from 'react-redux'
+import { Provider, useDispatch } from 'react-redux'
 import { store } from './redux/store'
 
-const Root = () => (
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
     <Provider store={store}>
         <Normalize/>
         <App/>
     </Provider>
 )
 
-ReactDOM.render(<Root/>, document.querySelector('#root'))
 

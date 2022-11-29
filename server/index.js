@@ -19,6 +19,7 @@ app.use(cors())
 app.use(express.json())
 
 // Routes
+// http://localhost:3002
 app.use('/api/auth', authRoute)
 
 async function start(){

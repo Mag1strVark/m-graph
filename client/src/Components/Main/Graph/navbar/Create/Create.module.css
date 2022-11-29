@@ -1,0 +1,37 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 10px;
+    background: #6663FF;
+    width: 100%;
+}
+
+.description {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.dndnode {
+    background: white;
+    height: 20px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.dndnode_input {
+    border-color: #0041d0;
+}
+
+.dndnode_output {
+    border-color: #ff0072;
+}
